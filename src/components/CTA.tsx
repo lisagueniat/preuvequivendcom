@@ -27,14 +27,14 @@ const CTA = () => {
               </Button>
             </div>
             
-            <div className="pt-6 grid grid-cols-3 gap-4 max-w-md mx-auto text-center">
+            <div className="pt-6 grid grid-cols-3 gap-4 max-w-lg mx-auto text-center">
               <div>
-                <div className="text-2xl font-bold">15 min</div>
-                <div className="text-sm text-muted-foreground">Durée de l'appel</div>
+                <div className="text-2xl font-bold">30 min</div>
+                <div className="text-sm text-muted-foreground">Appel de lancement</div>
               </div>
               <div>
-                <div className="text-2xl font-bold">0€</div>
-                <div className="text-sm text-muted-foreground">Sans engagement</div>
+                <div className="text-2xl font-bold">990€</div>
+                <div className="text-sm text-muted-foreground">Paiement unique</div>
               </div>
               <div>
                 <div className="text-2xl font-bold">48h</div>

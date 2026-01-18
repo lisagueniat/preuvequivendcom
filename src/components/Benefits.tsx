@@ -1,36 +1,30 @@
-import { TrendingUp, Clock, Shield, Users, Zap, Target } from "lucide-react";
+import { Clock, Shield, MessageSquare, Target } from "lucide-react";
 
 const Benefits = () => {
   const benefits = [
     {
-      icon: TrendingUp,
-      title: "+200% de conversions",
-      description: "En moyenne, nos clients doublent leur taux de conversion en 30 jours.",
-    },
-    {
       icon: Clock,
-      title: "Installation en 48h",
-      description: "On s'occupe de tout. Vous n'avez rien à faire.",
+      title: "Capture au \"Moment de Vérité\"",
+      description: "Nous identifions les déclencheurs clés pour solliciter vos clients au moment exact de leur réussite.",
+      benefit: "Plus besoin de relancer manuellement ou de \"quémander\". Votre système de capture tourne en autonomie totale.",
     },
     {
       icon: Shield,
-      title: "Témoignages authentiques",
-      description: "On collecte de vraies preuves auprès de vos clients satisfaits.",
+      title: "Format brut \"Anti-IA\"",
+      description: "Nous privilégions le format smartphone, difficile à simuler par une IA et perçu comme radicalement honnête.",
+      benefit: "Zéro logistique de studio, de réunion ou de montage. Votre client témoigne en 30 secondes.",
     },
     {
-      icon: Users,
-      title: "Adapté à votre marque",
-      description: "Design personnalisé qui s'intègre parfaitement à votre site.",
-    },
-    {
-      icon: Zap,
-      title: "Collecte automatisée",
-      description: "Système intelligent qui sollicite vos clients au bon moment.",
+      icon: MessageSquare,
+      title: "Questions orientées \"création de confiance\"",
+      description: "Nous configurons des formulaires guidés pour transformer les avis vagues en véritables arguments de persuasion.",
+      benefit: "Vous obtenez des preuves qui traitent les objections avant même qu'ils n'aient le temps de douter.",
     },
     {
       icon: Target,
-      title: "Placement stratégique",
-      description: "Les bons témoignages aux bons endroits pour maximiser l'impact.",
+      title: "Déploiement stratégique",
+      description: "Nous injectons vos témoignages là où ils sont décisifs : pages de paiement, emails de relance et tunnels de vente.",
+      benefit: "On place la bonne réponse face à la bonne peur. Votre taux de conversion augmente automatiquement.",
     },
   ];
 
@@ -39,14 +33,14 @@ const Benefits = () => {
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Pourquoi choisir la Machine à Preuve ?
+            Les avantages de notre Machine À Preuves
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Tout ce dont vous avez besoin pour transformer vos visiteurs en clients
+            Un système complet qui travaille pour vous 24h/24
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 gap-6">
           {benefits.map((benefit, index) => (
             <div
               key={index}
@@ -56,7 +50,12 @@ const Benefits = () => {
                 <benefit.icon className="w-7 h-7" />
               </div>
               <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
-              <p className="text-muted-foreground">{benefit.description}</p>
+              <p className="text-muted-foreground mb-4">{benefit.description}</p>
+              <div className="border-t-2 border-foreground pt-4">
+                <p className="text-sm font-medium">
+                  <span className="font-bold">Le bénéfice :</span> {benefit.benefit}
+                </p>
+              </div>
             </div>
           ))}
         </div>
