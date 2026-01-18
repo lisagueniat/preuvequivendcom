@@ -4,9 +4,9 @@ const Footer = () => {
       <div className="container max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <div className="text-xl font-bold uppercase tracking-wider">Machine à Preuve</div>
+            <div className="text-xl font-bold uppercase tracking-wider">La Machine À Preuves™</div>
             <p className="text-sm text-muted-foreground mt-1">
-              Des témoignages qui convertissent
+              Des témoignages qui convertissent 24/24
             </p>
           </div>
           
@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           
           <div className="text-sm text-muted-foreground font-mono">
-            © {new Date().getFullYear()} Machine à Preuve
+            © {new Date().getFullYear()} La Machine À Preuves™
           </div>
         </div>
       </div>

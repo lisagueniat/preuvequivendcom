@@ -20,7 +20,7 @@ const Problem = () => {
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Sans preuve sociale, vous perdez des clients chaque jour
+            Sans témoignages authentiques, vous perdez des clients chaque jour
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             92% des consommateurs lisent les avis avant d'acheter. Où sont les vôtres ?
@@ -33,7 +33,7 @@ const Problem = () => {
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center bg-destructive text-destructive-foreground">
                 <X className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-bold uppercase">Sans Machine à Preuve</h3>
+              <h3 className="text-xl font-bold uppercase">Sans Machine À Preuves</h3>
             </div>
             <ul className="space-y-4">
               {problems.map((problem, index) => (
@@ -52,7 +52,7 @@ const Problem = () => {
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center bg-foreground text-background">
                 <Check className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-bold uppercase">Avec Machine à Preuve</h3>
+              <h3 className="text-xl font-bold uppercase">Avec Machine À Preuves</h3>
             </div>
             <ul className="space-y-4">
               {solutions.map((solution, index) => (
