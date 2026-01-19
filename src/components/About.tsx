@@ -29,20 +29,20 @@ const About = () => {
               </AvatarFallback>
             </Avatar>
 
-            <p className="text-2xl font-black text-primary text-center md:text-left">
+            <p className="text-base leading-relaxed text-center md:text-left">
+              Je suis spécialiste en product marketing, un métier centré sur une question simple : comment transformer plus de visiteurs en clients, puis en clients satisfaits qui reviennent, en optimisant le parcours client à chaque étape.
+            </p>
+
+            <p className="text-base leading-relaxed text-center md:text-left">
+              J'ai travaillé sur des projets où la confiance est décisive — notamment dans les services financiers.
+            </p>
+
+            <p className="text-base leading-relaxed text-center md:text-left">
+              Avec La Machine à Preuves, j'applique cette expertise pour installer des systèmes de témoignages qui renforcent la confiance et soutiennent vos ventes en continu.
+            </p>
+
+            <p className="text-base italic text-center md:text-left">
               Elisabeth Gueniat
-            </p>
-
-            <p className="text-lg leading-relaxed text-center md:text-left">
-              Je suis <strong>Product Marketing Manager certifiée</strong>, avec plus de 15 années d'expérience dans des environnements exigeants (services financiers, produits numériques et parcours clients à fort enjeu).
-            </p>
-
-            <p className="text-lg leading-relaxed text-center md:text-left">
-              J'ai travaillé sur des problématiques très concrètes : comment transformer des visiteurs hésitants en clients, comment répondre aux objections avant même qu'elles ne bloquent la vente, et comment faire en sorte que les bons messages apparaissent au bon moment.
-            </p>
-
-            <p className="text-lg leading-relaxed text-center md:text-left">
-              Aujourd'hui, j'applique cette expertise à un sujet souvent sous-exploité : <strong>la preuve sociale</strong>.
             </p>
           </div>
 
