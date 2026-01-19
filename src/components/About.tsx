@@ -10,14 +10,14 @@ const About = () => {
 
   return (
     <section className="py-20 px-4 bg-secondary/30">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-black text-center mb-12 border-4 border-foreground p-6 bg-background shadow-brutal">
           À propos
         </h2>
 
-        <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center md:items-start">
-          {/* Photo */}
-          <div className="flex-shrink-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+          {/* Left Column - Photo + Name + Conclusion */}
+          <div className="flex flex-col items-center md:items-start space-y-6">
             <Avatar className="w-48 h-48 md:w-56 md:h-56 border-4 border-primary shadow-brutal">
               <AvatarImage 
                 src={elisabethPhoto} 
@@ -28,10 +28,18 @@ const About = () => {
                 EG
               </AvatarFallback>
             </Avatar>
+
+            <p className="text-2xl font-black text-primary text-center md:text-left">
+              Elisabeth Gueniat
+            </p>
+
+            <p className="text-lg leading-relaxed text-center md:text-left">
+              Aujourd'hui, j'applique cette expertise à un sujet souvent sous-exploité : <strong>la preuve sociale</strong>.
+            </p>
           </div>
 
-          {/* Content */}
-          <div className="space-y-6 text-center md:text-left">
+          {/* Right Column - Main Content */}
+          <div className="space-y-6">
             <p className="text-lg leading-relaxed">
               Je suis <strong>Product Marketing Manager certifiée</strong>, avec plus de 15 années d'expérience dans des environnements exigeants (services financiers, produits numériques et parcours clients à fort enjeu).
             </p>
@@ -51,14 +59,6 @@ const About = () => {
                 ))}
               </ul>
             </div>
-
-            <p className="text-lg leading-relaxed">
-              Aujourd'hui, j'applique cette expertise à un sujet souvent sous-exploité : <strong>la preuve sociale</strong>.
-            </p>
-
-            <p className="text-2xl font-black text-primary">
-              Elisabeth Gueniat
-            </p>
           </div>
         </div>
       </div>
