@@ -1,18 +1,18 @@
 import { Search, Settings, Rocket, LayoutGrid } from "lucide-react";
 
-const Process = () => {
+const ProcessOriginal = () => {
   const steps = [
     {
       number: "01",
       icon: Search,
-      title: "Audit & cartographie du \"Moment de Vérité\"",
-      description: "Nous analysons votre parcours client pour identifier le moment précis où vos clients sont le plus enclins à témoigner (fin de mission, résultat atteint, livraison, victoire concrète). Ce moment est rarement celui que l'on croit — et c'est là que la plupart des demandes de témoignages échouent. Nous définissons également les 3 objections majeures que vos futurs prospects doivent voir traitées par vos témoignages.",
+      title: "Analyse de votre parcours client",
+      description: "Nous analysons votre parcours client pour identifier le \"Moment de Vérité\" (le pic d'enthousiasme). Nous définissons ensemble les 3 objections majeures que vos témoignages devront traiter.",
       time: "30 min (appel de lancement)",
     },
     {
       number: "02",
       icon: Settings,
-      title: "Paramétrage & Ingénierie de la preuve",
+      title: "Paramétrage & Ingénierie",
       description: "Nous construisons votre infrastructure technique : configuration de l'outil de capture, rédaction des scripts de questions \"anti-vague\" et création des widgets d'affichage.",
       time: "0 min. On s'occupe de tout.",
     },
@@ -27,7 +27,7 @@ const Process = () => {
       number: "04",
       icon: LayoutGrid,
       title: "Affichage stratégique",
-      description: "Une fois les premiers témoignages collectés, nous les positionnons là où ils ont un impact réel sur la décision : pages clés, emails sensibles, moments de bascule. Ce système repose sur une installation initiale structurée. Il ne nécessite pas de gestion quotidienne, mais s'appuie sur vos outils existants.",
+      description: "Dès que le nombre souhaité de témoignages est atteint, on affiche ceux-ci aux endroits stratégiques : pages de paiement, emails de relance et tunnels de vente.",
       time: "Automatique",
     },
   ];
@@ -43,7 +43,7 @@ const Process = () => {
             Activez votre Machine À Preuves
           </h2>
           <p className="text-lg opacity-80 max-w-2xl mx-auto">
-            Une installation pensée pour ne presque rien vous demander. Nous concevons et mettons en place l'infrastructure. Vous récoltez les preuves.
+            L'installation de votre système est conçue pour vous prendre un minimum de votre temps. Nous nous occupons de la technique, vous récoltez les résultats.
           </p>
         </div>
 
@@ -74,4 +74,4 @@ const Process = () => {
   );
 };
 
-export default Process;
+export default ProcessOriginal;

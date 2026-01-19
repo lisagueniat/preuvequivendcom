@@ -1,30 +1,30 @@
 import { Clock, Shield, MessageSquare, Target } from "lucide-react";
 
-const Benefits = () => {
+const BenefitsOriginal = () => {
   const benefits = [
     {
       icon: Clock,
       title: "Capture au \"Moment de Vérité\"",
-      description: "Nous identifions les événements précis du parcours client (fin de mission, résultat atteint, livraison) à partir desquels une demande de témoignage est pertinente.",
-      benefit: "La collecte repose sur des règles claires, pas sur l'oubli ou l'improvisation.",
+      description: "Nous identifions les déclencheurs clés pour solliciter vos clients au moment exact de leur réussite.",
+      benefit: "Plus besoin de relancer manuellement ou de \"quémander\". Votre système de capture tourne en autonomie totale.",
     },
     {
       icon: Shield,
       title: "Format brut \"Anti-IA\"",
       description: "Nous privilégions le format smartphone, difficile à simuler par une IA et perçu comme radicalement honnête.",
-      benefit: "Zéro logistique de studio, de réunion ou de montage. Le client témoigne rapidement, sans préparation ni mise en scène.",
+      benefit: "Zéro logistique de studio, de réunion ou de montage. Votre client témoigne en 30 secondes.",
     },
     {
       icon: MessageSquare,
       title: "Questions orientées \"création de confiance\"",
-      description: "Nous configurons des formulaires guidés pour transformer des retours flous en informations utiles à la décision (contexte, problème, résultat).",
-      benefit: "Les témoignages apportent des réponses concrètes aux doutes récurrents, sans reformulation marketing.",
+      description: "Nous configurons des formulaires guidés pour transformer les avis vagues en véritables arguments de persuasion.",
+      benefit: "Vous obtenez des preuves qui traitent les objections avant même qu'ils n'aient le temps de douter.",
     },
     {
       icon: Target,
       title: "Déploiement stratégique",
-      description: "Nous injectons vos témoignages là où ils sont décisifs : pages de paiement, emails de relance et tunnels de vente, devis envoyés par e-mail.",
-      benefit: "La preuve apparaît uniquement quand elle est pertinente, sans surcharge ni distraction.",
+      description: "Nous injectons vos témoignages là où ils sont décisifs : pages de paiement, emails de relance et tunnels de vente.",
+      benefit: "On place la bonne réponse face à la bonne peur. Votre taux de conversion augmente automatiquement.",
     },
   ];
 
@@ -64,4 +64,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default BenefitsOriginal;

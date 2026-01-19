@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Check, Search, MessageSquare, Settings, Rocket, Infinity } from "lucide-react";
 
-const Pricing = () => {
+const PricingOriginal = () => {
   const features = [
     {
       icon: Search,
@@ -11,17 +11,17 @@ const Pricing = () => {
     {
       icon: MessageSquare,
       title: "Ingénierie de l'Objection",
-      description: "Conception des scripts de questions orientés objections (jusqu'à 3 scripts).",
+      description: "Création de vos protocoles de questions personnalisés (jusqu'à 3 scripts).",
     },
     {
       icon: Settings,
       title: "Configuration Technique",
-      description: "Paramétrage de l'outil (Senja ou équivalent) et des modules d'affichage.",
+      description: "Paramétrage complet de votre outil de capture (Senja ou équivalent).",
     },
     {
       icon: Rocket,
-      title: "Déploiement stratégique",
-      description: "Intégration sur les pages clés, emails et points de décision.",
+      title: "Mise en service (Injection)",
+      description: "Intégration des widgets sur vos pages de vente, emails et tunnels.",
     },
     {
       icon: Infinity,
@@ -41,7 +41,7 @@ const Pricing = () => {
             L'Installation "Moteur de Confiance"
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Une intervention ponctuelle pour installer une infrastructure de preuve qui travaille pour vous dans la durée.
+            Une intervention chirurgicale pour automatiser votre preuve sociale.
           </p>
         </div>
 
@@ -67,11 +67,8 @@ const Pricing = () => {
             </ul>
 
             <div className="mt-8 pt-8 border-t-2 border-foreground">
-              <p className="text-sm text-muted-foreground mb-4">
-                Ce que vous achetez n'est pas un outil. Vous achetez un système qui transforme chaque réussite client en levier de décision, sans dépendre de votre mémoire, de votre motivation ou de votre disponibilité.
-              </p>
               <p className="text-sm text-muted-foreground mb-6">
-                <strong>Note :</strong> L'abonnement à l'outil de collecte (ex : Senja, ~15–30€/mois) n'est pas inclus. Le prix couvre l'analyse, la conception du système et son installation complète.
+                <strong>Note :</strong> L'abonnement au logiciel de stockage (type Senja) reste à votre charge (env. 15-30€/mois). Mon forfait couvre l'analyse, le paramétrage et la stratégie de conversion.
               </p>
               
               <Button size="lg" className="w-full text-lg py-7 shadow-lg hover:shadow-xl hover:translate-x-1 hover:translate-y-1 transition-all">
@@ -86,4 +83,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default PricingOriginal;

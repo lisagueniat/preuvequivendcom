@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
-const Hero = () => {
+const HeroOriginal = () => {
   return (
     <section className="min-h-screen flex items-center justify-center border-b-4 border-foreground bg-background px-4 py-20">
       <div className="container max-w-5xl">
@@ -11,13 +11,13 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
-            Augmentez vos revenus grâce à un{" "}
-            <span className="bg-foreground text-background px-2">système de témoignages automatisé</span>{" "}
-            La Machine À Preuves™, actif 24/24
+            Augmentez vos revenus en affichant des{" "}
+            <span className="bg-foreground text-background px-2">témoignages clients</span>{" "}
+            qui convertissent 24/24
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-            Nous installons pour vous une infrastructure qui capture, structure et affiche des témoignages clients aux moments décisifs — sans gestion continue.
+            Nous installons pour vous un système qui capture et affiche les témoignages pertinents (Google, Vidéo, Écrit) de vos clients afin d'augmenter vos ventes.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -50,4 +50,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroOriginal;

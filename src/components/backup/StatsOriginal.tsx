@@ -1,33 +1,33 @@
 import { TrendingUp, Users, CheckCircle, Video } from "lucide-react";
 
-const Stats = () => {
+const StatsOriginal = () => {
   const stats = [
     {
       icon: TrendingUp,
       value: "+270%",
       label: "de conversion",
-      description: "Produits affichant des témoignages clients vs. produits sans preuve visible.",
+      description: "Augmentation moyenne du taux de conversion lorsqu'un produit affiche des témoignages clients.",
       source: "Spiegel Research Center",
     },
     {
       icon: Users,
       value: "92%",
       label: "d'hésitation en moins",
-      description: "Les acheteurs déclarent être significativement plus enclins à décider lorsqu'un témoignage répond à un doute précis.",
+      description: "Les acheteurs B2B affirment être plus enclins à acheter après avoir lu un témoignage qui répond à une objection spécifique.",
       source: "G2 & Heinz Marketing",
     },
     {
       icon: CheckCircle,
       value: "84%",
-      label: "crédibilité perçue",
-      description: "Les consommateurs accordent autant de confiance aux avis en ligne qu'à une recommandation personnelle, lorsque le format paraît authentique.",
+      label: "font confiance",
+      description: "Les consommateurs font autant confiance aux avis en ligne qu'à une recommandation personnelle.",
       source: "BrightLocal",
     },
     {
       icon: Video,
       value: "79%",
       label: "regardent des vidéos",
-      description: "Les prospects regardent un témoignage vidéo avant de prendre une décision.",
+      description: "Les prospects ont déjà regardé un témoignage vidéo pour en savoir plus sur une solution avant de se décider.",
       source: "Wyzowl",
     },
   ];
@@ -40,7 +40,7 @@ const Stats = () => {
             Études & Recherches
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Ce que montrent les données sur l'impact des témoignages clients
+            Pourquoi La Machine À Preuves va augmenter vos ventes
           </h2>
         </div>
 
@@ -67,13 +67,13 @@ const Stats = () => {
           <div className="border-4 border-foreground p-6 bg-background">
             <h3 className="text-xl font-bold mb-3">Réduction du coût d'acquisition</h3>
             <p className="text-muted-foreground">
-              À trafic égal, une amélioration du taux de conversion réduit mécaniquement le coût par client.
+              Si votre conversion augmente de 270%, votre coût par client est divisé par trois sans dépenser un euro de plus en publicité.
             </p>
           </div>
           <div className="border-4 border-foreground p-6 bg-background">
-            <h3 className="text-xl font-bold mb-3">L'actif est cumulatif</h3>
+            <h3 className="text-xl font-bold mb-3">Actif cumulatif</h3>
             <p className="text-muted-foreground">
-              Contrairement à une campagne publicitaire, chaque nouveau témoignage s'ajoute à une infrastructure durable qui renforce votre crédibilité dans le temps.
+              Contrairement à une campagne pub qui s'arrête quand on coupe le budget, chaque nouvel avis augmente la valeur de votre entreprise à long terme.
             </p>
           </div>
         </div>
@@ -82,4 +82,4 @@ const Stats = () => {
   );
 };
 
-export default Stats;
+export default StatsOriginal;
