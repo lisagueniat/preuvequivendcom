@@ -1,18 +1,18 @@
 import { X, Check } from "lucide-react";
 
-const Problem = () => {
+const ProblemOriginal = () => {
   const problems = [
-    "Vos visiteurs hésitent faute de signaux clairs",
-    "Les avis existent mais sont dispersés ou invisibles",
-    "La collecte dépend de votre mémoire et de votre temps",
-    "Rien ne se déclenche automatiquement",
+    "Vos visiteurs hésitent avant de passer à l'action",
+    "Vous perdez des ventes faute de crédibilité visible",
+    "Vos témoignages actuels sont mal présentés ou inexistants",
+    "Vous n'avez pas le temps de collecter et afficher des avis",
   ];
 
   const solutions = [
-    "Des témoignages visibles aux points de décision",
-    "Une collecte déclenchée par des règles précises",
-    "Une preuve sociale qui fonctionne sans supervision",
-    "Un système installé une fois, actif en continu",
+    "Des témoignages vidéo et texte qui rassurent instantanément",
+    "Une preuve sociale qui travaille pour vous 24h/24",
+    "Un système automatisé de collecte de témoignages",
+    "Installation complète en 48h, sans effort de votre part",
   ];
 
   return (
@@ -20,10 +20,10 @@ const Problem = () => {
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Sans signaux de confiance visibles, vos prospects hésitent
+            Sans témoignages authentiques, vous perdez des clients chaque jour
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            92 % des consommateurs consultent des avis avant d'acheter. Lorsqu'ils n'en trouvent pas, la décision est simplement reportée… ou abandonnée.
+            92% des consommateurs lisent les avis avant d'acheter. Où sont les vôtres ?
           </p>
         </div>
 
@@ -71,4 +71,4 @@ const Problem = () => {
   );
 };
 
-export default Problem;
+export default ProblemOriginal;
