@@ -16,7 +16,7 @@ const About = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-          {/* Left Column - Photo + Name + Conclusion */}
+          {/* Left Column - Photo + Name + Text */}
           <div className="flex flex-col items-center md:items-start space-y-6">
             <Avatar className="w-48 h-48 md:w-56 md:h-56 border-4 border-primary shadow-brutal">
               <AvatarImage 
@@ -34,21 +34,21 @@ const About = () => {
             </p>
 
             <p className="text-lg leading-relaxed text-center md:text-left">
+              Je suis <strong>Product Marketing Manager certifiée</strong>, avec plus de 15 années d'expérience dans des environnements exigeants (services financiers, produits numériques et parcours clients à fort enjeu).
+            </p>
+
+            <p className="text-lg leading-relaxed text-center md:text-left">
+              J'ai travaillé sur des problématiques très concrètes : comment transformer des visiteurs hésitants en clients, comment répondre aux objections avant même qu'elles ne bloquent la vente, et comment faire en sorte que les bons messages apparaissent au bon moment.
+            </p>
+
+            <p className="text-lg leading-relaxed text-center md:text-left">
               Aujourd'hui, j'applique cette expertise à un sujet souvent sous-exploité : <strong>la preuve sociale</strong>.
             </p>
           </div>
 
-          {/* Right Column - Main Content */}
-          <div className="space-y-6">
-            <p className="text-lg leading-relaxed">
-              Je suis <strong>Product Marketing Manager certifiée</strong>, avec plus de 15 années d'expérience dans des environnements exigeants (services financiers, produits numériques et parcours clients à fort enjeu).
-            </p>
-
-            <p className="text-lg leading-relaxed">
-              J'ai travaillé sur des problématiques très concrètes : comment transformer des visiteurs hésitants en clients, comment répondre aux objections avant même qu'elles ne bloquent la vente, et comment faire en sorte que les bons messages apparaissent au bon moment.
-            </p>
-
-            <div className="bg-background border-4 border-foreground p-6 shadow-brutal">
+          {/* Right Column - Achievements Box */}
+          <div className="flex items-center">
+            <div className="bg-background border-4 border-foreground p-6 shadow-brutal w-full">
               <p className="font-bold mb-4">Sur des projets récents, ces approches ont permis notamment :</p>
               <ul className="space-y-3">
                 {achievements.map((achievement, index) => (
