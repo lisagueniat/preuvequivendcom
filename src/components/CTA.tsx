@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar } from "lucide-react";
-
 const CTA = () => {
-  return (
-    <section className="py-20 md:py-32 px-4">
+  return <section className="py-20 md:py-32 px-4">
       <div className="container max-w-4xl">
         <div className="border-4 border-foreground p-8 md:p-12 shadow-xl bg-background">
           <div className="text-center space-y-6">
@@ -16,9 +14,7 @@ const CTA = () => {
               Réservez votre appel stratégique gratuit
             </h2>
             
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              15 minutes pour analyser votre situation et voir comment la Machine à Preuve peut transformer vos conversions.
-            </p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">30 minutes pour analyser votre situation et voir comment la Machine à Preuve peut transformer vos conversions.</p>
             
             <div className="pt-4">
               <Button size="lg" className="text-lg px-10 py-7 shadow-lg hover:shadow-xl hover:translate-x-1 hover:translate-y-1 transition-all">
@@ -37,15 +33,13 @@ const CTA = () => {
                 <div className="text-sm text-muted-foreground">Paiement unique</div>
               </div>
               <div>
-                <div className="text-2xl font-bold">48h</div>
+                <div className="text-2xl font-bold">7 jours</div>
                 <div className="text-sm text-muted-foreground">Pour être live</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CTA;
