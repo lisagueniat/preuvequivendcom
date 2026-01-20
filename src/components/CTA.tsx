@@ -1,48 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar } from "lucide-react";
 const CTA = () => {
-  return <section className="py-20 md:py-32 px-4">
-      <div className="container max-w-4xl">
-        <div className="border-4 border-foreground p-8 md:p-12 shadow-xl bg-background">
-          <div className="text-center space-y-6">
-            <div className="inline-flex items-center gap-2 border-2 border-foreground px-4 py-2 font-mono text-sm uppercase">
-              <Calendar className="w-4 h-4" />
-              Prêt à convertir plus ?
-            </div>
-            
-            <h2 className="text-3xl md:text-5xl font-bold">
-              Réservez votre appel stratégique gratuit
-            </h2>
-            
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">30 minutes pour analyser votre situation et voir comment la Machine à Preuve peut transformer vos conversions.</p>
-            
-            <div className="pt-4 flex justify-center">
-              <Button
-                size="lg"
-                className="w-full max-w-full sm:w-auto h-auto whitespace-normal text-center leading-snug justify-center text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-7 shadow-lg hover:shadow-xl transition-all md:hover:translate-x-1 md:hover:translate-y-1"
-              >
-                Réserver mon appel gratuit
-                <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5 shrink-0" />
-              </Button>
-            </div>
-            
-            <div className="pt-6 grid grid-cols-3 gap-4 max-w-lg mx-auto text-center">
-              <div>
-                <div className="text-2xl font-bold">30 min</div>
-                <div className="text-sm text-muted-foreground">Appel de lancement</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold">990€</div>
-                <div className="text-sm text-muted-foreground">Paiement unique</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold">7 jours</div>
-                <div className="text-sm text-muted-foreground">Pour être live</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>;
+  return;
 };
 export default CTA;

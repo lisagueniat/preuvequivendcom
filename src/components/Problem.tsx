@@ -40,27 +40,19 @@ const Problem = () => {
             </div>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">
-                  ✓
-                </span>
+                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">1</span>
                 <span>Des témoignages visibles aux points de décision</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">
-                  ✓
-                </span>
+                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">2</span>
                 <span>Une collecte déclenchée par des règles précises</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">
-                  ✓
-                </span>
+                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">3</span>
                 <span>Une preuve sociale qui fonctionne sans supervision</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">
-                  ✓
-                </span>
+                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">4</span>
                 <span>Un système installé une fois, actif en continu</span>
               </li>
             </ul>

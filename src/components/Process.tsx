@@ -34,7 +34,7 @@ const Process = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Activez votre Machine À Preuves
           </h2>
-          <p className="text-lg opacity-80 max-w-2xl mx-auto">Nous concevons et mettons en place l'infrastructure. Vous récoltez les preuves.</p>
+          <p className="text-lg opacity-80 max-w-2xl mx-auto">Nous concevons et mettons en place la machine. Vous récoltez les preuves et augmentez vos revenus.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">

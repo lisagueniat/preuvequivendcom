@@ -22,14 +22,14 @@ const Pricing = () => {
     title: "Actif Permanent",
     description: "Le système vous appartient. Pas de frais de gestion mensuels."
   }];
-  return <section className="py-20 md:py-32 px-4 border-b-4 border-foreground">
+  return <section className="py-20 md:py-32 px-4 border-b-4 border-foreground border-0">
       <div className="container max-w-4xl">
         <div className="text-center mb-12">
           <div className="inline-block border-2 border-foreground px-4 py-2 font-mono text-sm uppercase tracking-wider mb-6">
             Offre unique
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">L'Installation de votre Machine À Preuves</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Une intervention ponctuelle pour installer votre machine à preuves qui travaille pour vous année après année.</p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Une intervention ponctuelle pour installer votre machine à preuves qui travaille pour vous 24/24</p>
         </div>
 
         <div className="border-4 border-foreground shadow-xl bg-background">
