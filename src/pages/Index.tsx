@@ -4,6 +4,7 @@ import Problem from "@/components/Problem";
 import Stats from "@/components/Stats";
 import Benefits from "@/components/Benefits";
 import Process from "@/components/Process";
+import BeforeAfter from "@/components/BeforeAfter";
 import About from "@/components/About";
 import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
@@ -22,6 +23,9 @@ const Index = () => {
         </section>
         <section id="process">
           <Process />
+        </section>
+        <section id="before-after">
+          <BeforeAfter />
         </section>
         <section id="about">
           <About />
