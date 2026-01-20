@@ -17,7 +17,7 @@ const CTA = () => {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">30 minutes pour analyser votre situation et voir comment la Machine à Preuve peut transformer vos conversions.</p>
             
             <div className="pt-4">
-              <Button size="lg" className="text-lg px-10 py-7 shadow-lg hover:shadow-xl hover:translate-x-1 hover:translate-y-1 transition-all">
+              <Button size="lg" className="text-base md:text-lg px-6 md:px-10 py-5 md:py-7 shadow-lg hover:shadow-xl hover:translate-x-1 hover:translate-y-1 transition-all">
                 Réserver mon appel gratuit
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
