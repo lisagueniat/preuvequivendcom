@@ -58,7 +58,7 @@ const Problem = () => {
               {solutions.map((solution, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-white flex items-center justify-center text-xs font-mono mt-0.5">
-                    ✓
+                    {index + 1}
                   </span>
                   <span>{solution}</span>
                 </li>
