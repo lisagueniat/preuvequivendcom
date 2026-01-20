@@ -38,7 +38,7 @@ const Problem = () => {
             <ul className="space-y-4">
               {problems.map((problem, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex-shrink-0 border border-foreground flex items-center justify-center text-xs font-mono mt-0.5">
+                  <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-destructive text-destructive-foreground flex items-center justify-center text-xs font-mono mt-0.5">
                     {index + 1}
                   </span>
                   <span className="text-muted-foreground">{problem}</span>
@@ -57,7 +57,7 @@ const Problem = () => {
             <ul className="space-y-4">
               {solutions.map((solution, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex-shrink-0 bg-foreground text-background flex items-center justify-center text-xs font-mono mt-0.5">
+                  <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-white flex items-center justify-center text-xs font-mono mt-0.5">
                     ✓
                   </span>
                   <span>{solution}</span>
