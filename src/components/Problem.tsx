@@ -39,12 +39,30 @@ const Problem = () => {
               <h3 className="text-xl font-bold uppercase">Avec Machine À Preuves</h3>
             </div>
             <ul className="space-y-4">
-              {solutions.map((solution, index) => <li key={index} className="flex items-start gap-3">
-                  <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-white flex items-center justify-center text-xs font-mono mt-0.5">
-                    ✓
-                  </span>
-                  <span>{solution}</span>
-                </li>)}
+              <li className="flex items-start gap-3">
+                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">
+                  ✓
+                </span>
+                <span>Des témoignages visibles aux points de décision</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">
+                  ✓
+                </span>
+                <span>Une collecte déclenchée par des règles précises</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">
+                  ✓
+                </span>
+                <span>Une preuve sociale qui fonctionne sans supervision</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-6 h-6 flex-shrink-0 border border-foreground bg-green-600 text-background flex items-center justify-center text-xs font-mono mt-0.5">
+                  ✓
+                </span>
+                <span>Un système installé une fois, actif en continu</span>
+              </li>
             </ul>
           </div>
         </div>
