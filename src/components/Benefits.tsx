@@ -4,26 +4,31 @@ const Benefits = () => {
   const benefits = [
     {
       icon: Clock,
-      title: "Capture au \"Moment de Vérité\"",
-      description: "Nous identifions les événements précis du parcours client (fin de mission, résultat atteint, livraison) à partir desquels une demande de témoignage est pertinente.",
+      title: 'Capture au "Moment de Vérité"',
+      description:
+        "Nous identifions les événements précis du parcours client (fin de mission, résultat atteint, livraison) à partir desquels une demande de témoignage est pertinente.",
       benefit: "La collecte repose sur des règles claires, pas sur l'oubli ou l'improvisation.",
     },
     {
       icon: Shield,
-      title: "Format brut \"Anti-IA\"",
-      description: "Nous privilégions le format smartphone, difficile à simuler par une IA et perçu comme radicalement honnête.",
-      benefit: "Zéro logistique de studio, de réunion ou de montage. Le client témoigne rapidement, sans préparation ni mise en scène.",
+      title: 'Format brut "Anti-IA"',
+      description:
+        "Nous privilégions le format smartphone, difficile à simuler par une IA et perçu comme radicalement honnête.",
+      benefit:
+        "Zéro logistique de studio, de réunion ou de montage. Le client témoigne rapidement, sans préparation ni mise en scène.",
     },
     {
       icon: MessageSquare,
-      title: "Questions orientées \"création de confiance\"",
-      description: "Nous configurons des formulaires guidés pour transformer des retours flous en informations utiles à la décision (contexte, problème, résultat).",
+      title: 'Questions orientées "création de confiance"',
+      description:
+        "Nous configurons des formulaires guidés pour transformer des retours flous en informations utiles à la décision (contexte, problème, résultat).",
       benefit: "Les témoignages apportent des réponses concrètes aux doutes récurrents, sans reformulation marketing.",
     },
     {
       icon: Target,
       title: "Déploiement stratégique",
-      description: "Nous injectons vos témoignages là où ils sont décisifs : pages de paiement, emails de relance et tunnels de vente, devis envoyés par e-mail.",
+      description:
+        "Nous injectons vos témoignages là où ils sont décisifs : pages de paiement, emails de relance et tunnels de vente, devis envoyés par e-mail.",
       benefit: "La preuve apparaît uniquement quand elle est pertinente, sans surcharge ni distraction.",
     },
   ];
@@ -32,11 +37,9 @@ const Benefits = () => {
     <section className="py-20 md:py-32 px-4 border-b-4 border-foreground">
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Les avantages de notre Machine À Preuves
-          </h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">Les avantages de notre Machine À Preuves</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Un système complet qui travaille pour vous 24h/24
+            Un système complet qui travaille pour vous 24h/24h
           </p>
         </div>
 
