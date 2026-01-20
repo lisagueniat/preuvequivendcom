@@ -12,7 +12,7 @@ const Hero = () => {
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
             Augmentez vos revenus en laissant{" "}
-            <span className="bg-foreground text-background px-2">La Machine à Preuves™</span> convaincre vos prospects
+            <span className="bg-foreground text-background px-2 py-0 leading-none inline-block">La Machine à Preuves™</span> convaincre vos prospects
             24/24.
           </h1>
 
