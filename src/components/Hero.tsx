@@ -12,10 +12,7 @@ const Hero = () => {
             24/24.
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-            Nous installons pour vous une infrastructure qui capture, structure et affiche des témoignages clients aux
-            moments décisifs — sans gestion continue.
-          </p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">Nous installons pour vous un système qui capture, structure et affiche des témoignages clients aux moments décisifs, sans gestion continue.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button size="lg" className="text-lg px-8 py-6 shadow-md hover:shadow-lg hover:translate-x-1 hover:translate-y-1 transition-all">
