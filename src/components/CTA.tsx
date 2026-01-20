@@ -16,10 +16,10 @@ const CTA = () => {
             
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">30 minutes pour analyser votre situation et voir comment la Machine à Preuve peut transformer vos conversions.</p>
             
-            <div className="pt-4">
+            <div className="pt-4 flex justify-center">
               <Button
                 size="lg"
-                className="h-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-7 shadow-lg hover:shadow-xl transition-all md:hover:translate-x-1 md:hover:translate-y-1"
+                className="w-full max-w-full sm:w-auto h-auto whitespace-normal text-center leading-snug justify-center text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-7 shadow-lg hover:shadow-xl transition-all md:hover:translate-x-1 md:hover:translate-y-1"
               >
                 Réserver mon appel gratuit
                 <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5 shrink-0" />
