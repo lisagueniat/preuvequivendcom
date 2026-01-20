@@ -12,25 +12,21 @@ const About = () => {
     <section className="py-20 px-4 bg-secondary/30">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-black text-center mb-12 border-4 border-foreground p-6 bg-background shadow-brutal">
-          À propos
+          La fondatrice
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {/* Left Column - Photo + Name + Text */}
           <div className="flex flex-col items-center md:items-start space-y-6">
             <Avatar className="w-48 h-48 md:w-56 md:h-56 border-4 border-primary shadow-brutal">
-              <AvatarImage 
-                src={elisabethPhoto} 
-                alt="Elisabeth Gueniat" 
-                className="object-cover"
-              />
-              <AvatarFallback className="text-4xl font-bold bg-primary text-primary-foreground">
-                EG
-              </AvatarFallback>
+              <AvatarImage src={elisabethPhoto} alt="Elisabeth Gueniat" className="object-cover" />
+              <AvatarFallback className="text-4xl font-bold bg-primary text-primary-foreground">EG</AvatarFallback>
             </Avatar>
 
             <p className="text-base leading-relaxed text-center md:text-left">
-              Je suis spécialiste en product marketing, un métier centré sur une question simple : comment transformer plus de visiteurs en clients, puis en clients satisfaits qui reviennent, en optimisant le parcours client à chaque étape.
+              Je suis spécialiste en product marketing, un métier centré sur une question simple : comment transformer
+              plus de visiteurs en clients, puis en clients satisfaits qui reviennent, en optimisant le parcours client
+              à chaque étape.
             </p>
 
             <p className="text-base leading-relaxed text-center md:text-left">
@@ -38,12 +34,11 @@ const About = () => {
             </p>
 
             <p className="text-base leading-relaxed text-center md:text-left">
-              Avec La Machine à Preuves, j'applique cette expertise pour installer des systèmes de témoignages qui renforcent la confiance et soutiennent vos ventes en continu.
+              Avec La Machine à Preuves, j'applique cette expertise pour installer des systèmes de témoignages qui
+              renforcent la confiance et soutiennent vos ventes en continu.
             </p>
 
-            <p className="text-base italic text-center md:text-left">
-              Elisabeth Gueniat
-            </p>
+            <p className="text-base italic text-center md:text-left">Elisabeth Gueniat</p>
           </div>
 
           {/* Right Column - Achievements Box */}
