@@ -19,9 +19,9 @@ const CTA = () => {
             <div className="pt-4">
               <Button
                 size="lg"
-                className="w-full max-w-full md:w-auto whitespace-normal flex-wrap text-center leading-snug text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-7 shadow-lg hover:shadow-xl transition-all md:hover:translate-x-1 md:hover:translate-y-1"
+                className="h-auto text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-7 shadow-lg hover:shadow-xl transition-all md:hover:translate-x-1 md:hover:translate-y-1"
               >
-                <span className="min-w-0 break-words">Réserver mon appel gratuit</span>
+                Réserver mon appel gratuit
                 <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5 shrink-0" />
               </Button>
             </div>
