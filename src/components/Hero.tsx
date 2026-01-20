@@ -11,7 +11,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
-            Augmentez vos revenus grâce en laissant{" "}
+            Augmentez vos revenus en laissant{" "}
             <span className="bg-foreground text-background px-2">La Machine à Preuves™</span> convaincre vos prospects.
           </h1>
 
