@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-foreground"></div>
-              <span>Installation en 48h</span>
+              <span>Installation en 7 jours</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-foreground"></div>
