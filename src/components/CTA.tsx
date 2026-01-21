@@ -20,7 +20,7 @@ const CTA = () => {
               <div className="text-sm font-mono text-primary-foreground/70">Appel découverte</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold">990€</div>
+              <div className="text-2xl md:text-3xl font-bold">Dès l'appel</div>
               <div className="text-sm font-mono text-primary-foreground/70">Prix unique</div>
             </div>
             <div className="text-center">
