@@ -19,7 +19,7 @@ const Problem = () => {
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center bg-destructive text-destructive-foreground">
                 <X className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-bold uppercase">Sans Machine À Preuves</h3>
+              <h3 className="text-xl font-bold uppercase">SANS LA MACHINE À PREUVES</h3>
             </div>
             <ul className="space-y-4">
               {problems.map((problem, index) => <li key={index} className="flex items-start gap-3">
@@ -36,7 +36,7 @@ const Problem = () => {
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center text-background bg-[#16a249]">
                 <Check className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-bold uppercase">Avec Machine À Preuves</h3>
+              <h3 className="text-xl font-bold uppercase">AVEC LA MACHINE À PREUVES</h3>
             </div>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
