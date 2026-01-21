@@ -14,7 +14,7 @@ const BeforeAfter = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-4 md:gap-12">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {/* Before */}
           <div className="space-y-4">
             <div className="inline-block border-2 border-destructive bg-destructive/10 px-3 py-1 font-mono text-sm uppercase tracking-wider text-destructive">

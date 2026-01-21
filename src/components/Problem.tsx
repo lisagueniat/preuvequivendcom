@@ -13,7 +13,7 @@ const Problem = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-4 md:gap-12">
+        <div className="grid md:grid-cols-2 gap-6 md:gap-12">
           <div className="border-4 border-foreground p-4 md:p-8 shadow-lg bg-secondary">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center bg-destructive text-destructive-foreground">
