@@ -15,12 +15,16 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">Nous installons pour vous un système qui capture, structure et affiche des témoignages clients aux moments décisifs, sans gestion continue.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button size="lg" className="text-lg px-8 py-6 shadow-sm hover:shadow transition-all">
-              Réserver un appel
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button size="lg" className="text-lg px-8 py-6 shadow-sm hover:shadow transition-all" asChild>
+              <a href="https://juliengueniat235854.typeform.com/to/qJVNaama" target="_blank" rel="noopener noreferrer">
+                Réserver un appel
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 shadow-sm hover:shadow transition-all">
-              Découvrir l'offre
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6 shadow-sm hover:shadow transition-all" asChild>
+              <a href="#pricing">
+                Découvrir l'offre
+              </a>
             </Button>
           </div>
 

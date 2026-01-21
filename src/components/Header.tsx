@@ -18,8 +18,10 @@ const Header = () => {
             </a>
           </nav>
 
-          <Button className="shadow-xs hover:shadow-sm hover:translate-x-0.5 hover:translate-y-0.5 transition-all">
-            Réserver un appel
+          <Button className="shadow-xs hover:shadow-sm hover:translate-x-0.5 hover:translate-y-0.5 transition-all" asChild>
+            <a href="https://juliengueniat235854.typeform.com/to/qJVNaama" target="_blank" rel="noopener noreferrer">
+              Réserver un appel
+            </a>
           </Button>
         </div>
       </div>
