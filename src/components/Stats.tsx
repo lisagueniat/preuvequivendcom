@@ -44,7 +44,7 @@ const Stats = () => {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
             <div
               key={index}
@@ -63,7 +63,7 @@ const Stats = () => {
           ))}
         </div>
 
-        <div className="mt-12 grid md:grid-cols-2 gap-4 md:gap-6">
+        <div className="mt-12 grid md:grid-cols-2 gap-6">
           <div className="border-4 border-foreground p-4 md:p-6 bg-background">
             <h3 className="text-xl font-bold mb-3">Réduction du coût d'acquisition</h3>
             <p className="text-muted-foreground">

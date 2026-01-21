@@ -15,7 +15,7 @@ const About = () => {
           La fondatrice
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {/* Left Column - Photo + Name + Text */}
           <div className="flex flex-col items-center md:items-start space-y-6">
             <Avatar className="w-48 h-48 md:w-56 md:h-56 border-4 border-primary shadow-brutal">
