@@ -38,7 +38,7 @@ const Process = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-10 md:gap-8 mt-8">
-          {steps.map((step, index) => <div key={index} className="border-4 border-background p-4 md:p-8 relative group hover:-translate-y-2 transition-transform duration-300">
+          {steps.map((step, index) => <div key={index} className="border-4 border-background p-6 md:p-8 relative group hover:-translate-y-2 transition-transform duration-300">
               <div className="absolute -top-6 -left-2 bg-background text-foreground px-4 py-2 font-mono text-2xl font-bold">
                 {step.number}
               </div>

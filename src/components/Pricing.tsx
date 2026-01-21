@@ -33,12 +33,12 @@ const Pricing = () => {
         </div>
 
         <div className="border-4 border-foreground bg-background shadow-md">
-          <div className="p-4 md:p-12 text-center border-b-4 border-foreground">
+          <div className="p-6 md:p-12 text-center border-b-4 border-foreground">
             <div className="text-6xl md:text-7xl font-bold mb-2">990€</div>
             <p className="text-muted-foreground">Investissement unique</p>
           </div>
 
-          <div className="p-4 md:p-12 shadow-none">
+          <div className="p-6 md:p-12 shadow-none">
             <ul className="space-y-6">
               {features.map((feature, index) => <li key={index} className="flex items-start gap-4">
                   <div className="w-10 h-10 border-2 border-foreground flex items-center justify-center flex-shrink-0 bg-foreground text-background">
