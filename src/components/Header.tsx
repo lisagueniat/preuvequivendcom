@@ -3,7 +3,7 @@ const Header = () => {
   return <header className="fixed top-0 left-0 right-0 z-50 border-b-4 border-foreground bg-background">
       <div className="container max-w-6xl px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="font-bold text-lg uppercase tracking-wider">LA PREUVE
+          <div className="font-bold text-lg uppercase tracking-wider">LA PREUVE 
 QUI VEND</div>
 
           <nav className="hidden md:flex items-center gap-8">
