@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 const Hero = () => {
-  return <section className="min-h-screen flex items-center justify-center border-b-4 border-foreground bg-background px-4 py-20">
+  return <section className="min-h-screen border-b-4 border-foreground bg-background px-4 flex items-center justify-center py-[60px]">
       <div className="container max-w-5xl">
         <div className="flex flex-col items-center text-center space-y-8">
           

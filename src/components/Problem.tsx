@@ -14,7 +14,7 @@ const Problem = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 md:gap-12">
-          <div className="border-4 border-foreground p-4 md:p-8 shadow-lg bg-secondary">
+          <div className="border-4 border-foreground p-4 md:p-8 bg-secondary shadow">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center bg-destructive text-destructive-foreground">
                 <X className="w-6 h-6" />
@@ -31,7 +31,7 @@ const Problem = () => {
             </ul>
           </div>
 
-          <div className="border-4 border-foreground p-4 md:p-8 shadow-lg bg-background">
+          <div className="border-4 border-foreground p-4 md:p-8 bg-background shadow">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center text-background bg-[#16a249]">
                 <Check className="w-6 h-6" />

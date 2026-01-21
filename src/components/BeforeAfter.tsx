@@ -1,6 +1,5 @@
 const BeforeAfter = () => {
-  return (
-    <section className="py-20 md:py-32 px-2 md:px-4 bg-background border-b-4 border-foreground">
+  return <section className="py-20 md:py-32 px-2 md:px-4 bg-background border-b-4 border-foreground">
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <div className="inline-block border-2 border-foreground px-4 py-2 font-mono text-sm uppercase tracking-wider mb-6 bg-secondary">
@@ -20,7 +19,7 @@ const BeforeAfter = () => {
             <div className="inline-block border-2 border-destructive bg-destructive/10 px-3 py-1 font-mono text-sm uppercase tracking-wider text-destructive">
               ❌ Avant
             </div>
-            <div className="border-4 border-foreground bg-muted p-4 shadow-md aspect-[4/3] flex items-center justify-center">
+            <div className="border-4 border-foreground bg-muted p-4 aspect-[4/3] flex items-center justify-center shadow">
               <div className="text-center text-muted-foreground">
                 <div className="text-6xl mb-4">📷</div>
                 <p className="font-mono text-sm">Image "Avant" à insérer</p>
@@ -33,7 +32,7 @@ const BeforeAfter = () => {
             <div className="inline-block border-2 border-primary bg-primary/10 px-3 py-1 font-mono text-sm uppercase tracking-wider text-primary">
               ✅ Après
             </div>
-            <div className="border-4 border-foreground bg-muted p-4 shadow-md aspect-[4/3] flex items-center justify-center">
+            <div className="border-4 border-foreground bg-muted p-4 aspect-[4/3] flex items-center justify-center shadow">
               <div className="text-center text-muted-foreground">
                 <div className="text-6xl mb-4">📷</div>
                 <p className="font-mono text-sm">Image "Après" à insérer</p>
@@ -42,8 +41,6 @@ const BeforeAfter = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default BeforeAfter;
