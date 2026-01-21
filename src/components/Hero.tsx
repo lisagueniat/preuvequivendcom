@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="pt-8 flex flex-wrap justify-center items-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-foreground"></div>
-              <span>+270% de conversion</span>
+              <span>Jusqu'à +270% de conversion</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-foreground"></div>
