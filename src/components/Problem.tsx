@@ -2,7 +2,7 @@ import { X, Check } from "lucide-react";
 const Problem = () => {
   const problems = ["Vos visiteurs hésitent faute de signaux clairs", "Les avis existent mais sont dispersés ou invisibles", "La collecte dépend de votre mémoire et de votre temps", "Rien ne se déclenche automatiquement"];
   const solutions = ["Des témoignages visibles aux points de décision", "Une collecte déclenchée par des règles précises", "Une preuve sociale qui fonctionne sans supervision", "Un système installé une fois, actif en continu"];
-  return <section className="py-20 md:py-32 px-4 border-b-4 border-foreground">
+  return <section className="py-20 md:py-32 px-2 md:px-4 border-b-4 border-foreground">
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
@@ -13,8 +13,8 @@ const Problem = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12">
-          <div className="border-4 border-foreground p-8 shadow-lg bg-secondary">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-12">
+          <div className="border-4 border-foreground p-4 md:p-8 shadow-lg bg-secondary">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center bg-destructive text-destructive-foreground">
                 <X className="w-6 h-6" />
@@ -31,7 +31,7 @@ const Problem = () => {
             </ul>
           </div>
 
-          <div className="border-4 border-foreground p-8 shadow-lg bg-background">
+          <div className="border-4 border-foreground p-4 md:p-8 shadow-lg bg-background">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center text-background bg-[#16a249]">
                 <Check className="w-6 h-6" />
