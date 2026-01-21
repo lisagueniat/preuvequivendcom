@@ -23,7 +23,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-20 md:py-32 px-4 bg-secondary border-b-4 border-foreground">
+    <section className="py-20 md:py-32 px-2 md:px-4 bg-secondary border-b-4 border-foreground">
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <div className="inline-block border-2 border-foreground px-4 py-2 font-mono text-sm uppercase tracking-wider mb-6 bg-background">
@@ -34,11 +34,11 @@ const Testimonials = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-4 md:gap-6">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="border-4 border-foreground bg-background p-6 shadow-md hover:shadow-lg transition-shadow"
+              className="border-4 border-foreground bg-background p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow"
             >
               <div className="flex gap-1 mb-4">
                 {Array.from({ length: testimonial.stars }).map((_, i) => (

@@ -3,7 +3,7 @@ import { ArrowRight, Calendar } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section className="py-20 md:py-32 px-4 bg-primary text-primary-foreground border-b-4 border-foreground">
+    <section className="py-20 md:py-32 px-2 md:px-4 bg-primary text-primary-foreground border-b-4 border-foreground">
       <div className="container max-w-4xl text-center">
         <div className="inline-flex items-center gap-2 border-2 border-primary-foreground/30 px-4 py-2 font-mono text-sm uppercase tracking-wider mb-8">
           <Calendar className="w-4 h-4" />
@@ -18,7 +18,7 @@ const CTA = () => {
           Réservez votre appel découverte de 30 minutes. On analyse ensemble votre situation et on vous montre comment la Machine à Preuves peut doubler vos conversions.
         </p>
 
-        <div className="border-4 border-primary-foreground bg-primary-foreground/10 p-6 md:p-8 mb-8">
+        <div className="border-4 border-primary-foreground bg-primary-foreground/10 p-4 md:p-8 mb-8">
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-6">
             <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold">30 min</div>

@@ -9,13 +9,13 @@ const About = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-secondary/30">
+    <section className="py-20 px-2 md:px-4 bg-secondary/30">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-black text-center mb-12 border-4 border-foreground p-6 bg-background shadow-brutal">
+        <h2 className="text-4xl md:text-5xl font-black text-center mb-12 border-4 border-foreground p-4 md:p-6 bg-background shadow-brutal">
           La fondatrice
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12">
           {/* Left Column - Photo + Name + Text */}
           <div className="flex flex-col items-center md:items-start space-y-6">
             <Avatar className="w-48 h-48 md:w-56 md:h-56 border-4 border-primary shadow-brutal">
@@ -43,7 +43,7 @@ const About = () => {
 
           {/* Right Column - Achievements Box */}
           <div className="flex items-center">
-            <div className="bg-background border-4 border-foreground p-6 shadow-brutal w-full">
+            <div className="bg-background border-4 border-foreground p-4 md:p-6 shadow-brutal w-full">
               <p className="font-bold mb-4">Sur des projets récents, ces approches ont permis notamment :</p>
               <ul className="space-y-3">
                 {achievements.map((achievement, index) => (

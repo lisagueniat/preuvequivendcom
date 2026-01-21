@@ -25,7 +25,7 @@ const Process = () => {
     description: "Une fois les premiers témoignages collectés, nous les positionnons là où ils ont un impact réel sur la décision : pages clés, emails sensibles, moments de bascule. Ce système repose sur une installation initiale structurée. Il ne nécessite pas de gestion quotidienne, mais s'appuie sur vos outils existants.",
     time: "Automatique"
   }];
-  return <section className="py-20 md:py-32 px-4 bg-foreground text-background">
+  return <section className="py-20 md:py-32 px-2 md:px-4 bg-foreground text-background">
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <div className="inline-block border-2 border-background px-4 py-2 font-mono text-sm uppercase tracking-wider mb-6">
@@ -37,8 +37,8 @@ const Process = () => {
           <p className="text-lg opacity-80 max-w-2xl mx-auto">Nous concevons et mettons en place la machine. Vous récoltez les preuves et augmentez vos revenus.</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {steps.map((step, index) => <div key={index} className="border-4 border-background p-8 relative group hover:-translate-y-2 transition-transform duration-300">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-8">
+          {steps.map((step, index) => <div key={index} className="border-4 border-background p-4 md:p-8 relative group hover:-translate-y-2 transition-transform duration-300">
               <div className="absolute -top-6 -left-2 bg-background text-foreground px-4 py-2 font-mono text-2xl font-bold">
                 {step.number}
               </div>
