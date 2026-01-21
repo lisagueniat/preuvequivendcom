@@ -61,9 +61,9 @@ const Pricing = () => {
                 Le prix couvre l'analyse, la conception du système et son installation complète.
               </p>
 
-              <Button size="lg" className="w-full text-lg py-7 shadow-lg hover:shadow-xl hover:translate-x-1 hover:translate-y-1 transition-all">
+              <Button size="lg" className="w-full text-sm sm:text-base md:text-lg py-5 md:py-7 shadow-lg hover:shadow-xl hover:translate-x-1 hover:translate-y-1 transition-all">
                 Réserver mon appel gratuit
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
               </Button>
             </div>
           </div>
