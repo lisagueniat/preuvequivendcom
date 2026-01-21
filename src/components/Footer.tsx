@@ -9,14 +9,11 @@ const Footer = () => {
           </div>
 
           <div className="flex gap-8 text-sm">
-            <a href="#" className="hover:underline underline-offset-4">
+            <a href="/mentions-legales" className="hover:underline underline-offset-4">
               Mentions légales
             </a>
-            <a href="#" className="hover:underline underline-offset-4">
+            <a href="/cgv" className="hover:underline underline-offset-4">
               CGV
-            </a>
-            <a href="#" className="hover:underline underline-offset-4">
-              Contact
             </a>
           </div>
 
