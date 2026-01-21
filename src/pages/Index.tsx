@@ -5,6 +5,7 @@ import Stats from "@/components/Stats";
 import Benefits from "@/components/Benefits";
 import Process from "@/components/Process";
 import BeforeAfter from "@/components/BeforeAfter";
+import SenjaWidget from "@/components/SenjaWidget";
 import About from "@/components/About";
 import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
@@ -26,6 +27,9 @@ const Index = () => {
         </section>
         <section id="before-after">
           <BeforeAfter />
+        </section>
+        <section id="senja-widget">
+          <SenjaWidget />
         </section>
         <section id="about">
           <About />
