@@ -23,9 +23,7 @@ const About = () => {
 
           {/* Right - Text Content */}
           <div className="flex flex-col justify-center space-y-6">
-            <span className="inline-block w-fit px-4 py-2 border-2 border-foreground bg-background text-sm font-medium">
-              La fondatrice
-            </span>
+            <span className="inline-block w-fit px-4 py-2 border-2 border-foreground bg-background text-sm font-medium">La fondatrice de La Preuve Qui Vend</span>
 
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black">Je suis Elisabeth.</h2>
 
