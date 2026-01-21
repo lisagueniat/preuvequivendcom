@@ -19,7 +19,7 @@ const SenjaWidget = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Machine à Preuves en Action
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Machine à Preuves installer sur la page de présentation du Cerveau Numérique.</p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Résultat de la "Machine à Preuves" installée sur la page de présentation du programme <a href="https://organisologie.com/le-cerveau-numerique" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:no-underline">Le Cerveau Numérique</a> de Julien Gueniat.</p>
         </div>
 
         <div className="senja-embed" data-id="6a195629-53b8-41d3-befe-e9818ae20250" data-mode="shadow" data-lazyload="false" style={{
