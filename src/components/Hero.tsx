@@ -15,11 +15,11 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">Nous installons pour vous un système qui capture, structure et affiche des témoignages clients aux moments décisifs, sans gestion continue.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button size="lg" className="text-lg px-8 py-6 shadow-md hover:shadow-lg hover:translate-x-1 hover:translate-y-1 transition-all">
+            <Button size="lg" className="text-lg px-8 py-6 shadow-sm hover:shadow transition-all">
               Réserver un appel
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 shadow-sm hover:shadow-md hover:translate-x-1 hover:translate-y-1 transition-all">
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6 shadow-sm hover:shadow transition-all">
               Découvrir l'offre
             </Button>
           </div>
