@@ -33,7 +33,7 @@ const Stats = () => {
   ];
 
   return (
-    <section className="py-20 md:py-32 px-4 bg-secondary border-b-4 border-foreground">
+    <section className="py-20 md:py-32 px-2 md:px-4 bg-secondary border-b-4 border-foreground">
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <div className="inline-block border-2 border-foreground px-4 py-2 font-mono text-sm uppercase tracking-wider mb-6 bg-background">
@@ -44,11 +44,11 @@ const Stats = () => {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="border-4 border-foreground bg-background p-6 shadow-md hover:shadow-lg transition-shadow text-center"
+              className="border-4 border-foreground bg-background p-4 md:p-6 shadow-md hover:shadow-lg transition-shadow text-center"
             >
               <div className="w-12 h-12 border-2 border-foreground flex items-center justify-center mx-auto mb-4">
                 <stat.icon className="w-6 h-6" />
@@ -63,14 +63,14 @@ const Stats = () => {
           ))}
         </div>
 
-        <div className="mt-12 grid md:grid-cols-2 gap-6">
-          <div className="border-4 border-foreground p-6 bg-background">
+        <div className="mt-12 grid md:grid-cols-2 gap-4 md:gap-6">
+          <div className="border-4 border-foreground p-4 md:p-6 bg-background">
             <h3 className="text-xl font-bold mb-3">Réduction du coût d'acquisition</h3>
             <p className="text-muted-foreground">
               À trafic égal, une amélioration du taux de conversion réduit mécaniquement le coût par client.
             </p>
           </div>
-          <div className="border-4 border-foreground p-6 bg-background">
+          <div className="border-4 border-foreground p-4 md:p-6 bg-background">
             <h3 className="text-xl font-bold mb-3">L'actif est cumulatif</h3>
             <p className="text-muted-foreground">
               Contrairement à une campagne publicitaire, chaque nouveau témoignage s'ajoute à une infrastructure durable qui renforce votre crédibilité dans le temps.

@@ -34,7 +34,7 @@ const Benefits = () => {
   ];
 
   return (
-    <section className="py-20 md:py-32 px-4 border-b-4 border-foreground">
+    <section className="py-20 md:py-32 px-2 md:px-4 border-b-4 border-foreground">
       <div className="container max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">Les avantages de notre Machine À Preuves</h2>
@@ -43,11 +43,11 @@ const Benefits = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="border-4 border-foreground p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all group"
+              className="border-4 border-foreground p-4 md:p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all group"
             >
               <div className="w-14 h-14 border-2 border-foreground flex items-center justify-center mb-4 group-hover:bg-foreground group-hover:text-background transition-colors">
                 <benefit.icon className="w-7 h-7" />

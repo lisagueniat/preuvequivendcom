@@ -22,7 +22,7 @@ const Pricing = () => {
     title: "Actif Permanent",
     description: "Le système vous appartient. Pas de frais de gestion mensuels."
   }];
-  return <section className="py-20 md:py-32 px-4 border-b-4 border-foreground border-0">
+  return <section className="py-20 md:py-32 px-2 md:px-4 border-b-4 border-foreground border-0">
       <div className="container max-w-4xl">
         <div className="text-center mb-12">
           <div className="inline-block border-2 border-foreground px-4 py-2 font-mono text-sm uppercase tracking-wider mb-6">
@@ -33,12 +33,12 @@ const Pricing = () => {
         </div>
 
         <div className="border-4 border-foreground shadow-xl bg-background">
-          <div className="p-8 md:p-12 text-center border-b-4 border-foreground">
+          <div className="p-4 md:p-12 text-center border-b-4 border-foreground">
             <div className="text-6xl md:text-7xl font-bold mb-2">990€</div>
             <p className="text-muted-foreground">Investissement unique</p>
           </div>
 
-          <div className="p-8 md:p-12">
+          <div className="p-4 md:p-12">
             <ul className="space-y-6">
               {features.map((feature, index) => <li key={index} className="flex items-start gap-4">
                   <div className="w-10 h-10 border-2 border-foreground flex items-center justify-center flex-shrink-0 bg-foreground text-background">
