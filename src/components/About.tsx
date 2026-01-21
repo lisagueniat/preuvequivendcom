@@ -1,4 +1,4 @@
-import elisabethPhoto from "@/assets/elisabeth-gueniat.jpg";
+import elisabethPhoto from "@/assets/elisabeth-gueniat.png";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const About = () => {
