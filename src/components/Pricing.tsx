@@ -29,7 +29,7 @@ const Pricing = () => {
             Offre unique
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">L'Installation de votre Machine À Preuves</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Une intervention ponctuelle pour installer votre machine à preuves qui travaille pour vous 24/24</p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Une intervention ponctuelle pour installer votre machine à preuves qui créer de la confiance 24/24</p>
         </div>
 
         <div className="border-4 border-foreground bg-background shadow-md">
