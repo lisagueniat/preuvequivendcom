@@ -30,7 +30,7 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black">Je suis Elisabeth.</h2>
 
             <div className="space-y-4 text-base md:text-lg leading-relaxed">
-              <p>Je suis spécialiste en product marketing, un métier centré sur une question simple : comment transformer les visiteurs en clients qui continuent d'utiliser le produit année après année.</p>
+              <p>Je suis spécialiste en product marketing, un métier centré sur une question simple : comment transformer les visiteurs en clients satisfaits qui continuent d'utiliser le produit année après année ?</p>
               <p>J'ai travaillé sur des projets où la confiance est décisive : services financiers (Néo Banques) et immobilier.
 
 Avec La Machine à Preuves, j'applique cette expertise pour installer des systèmes de témoignages qui renforcent la confiance et soutiennent vos ventes en continu.</p>
