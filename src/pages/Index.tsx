@@ -28,7 +28,7 @@ const Index = () => {
         <section id="before-after">
           <BeforeAfter />
         </section>
-        <section id="senja-widget">
+        <section id="testimonials">
           <SenjaWidget />
         </section>
         <section id="about">
