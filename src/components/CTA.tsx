@@ -21,11 +21,11 @@ const CTA = () => {
             </div>
             <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold">Dès l'appel</div>
-              <div className="text-sm font-mono text-primary-foreground/70">Prix unique</div>
+              <div className="text-sm font-mono text-primary-foreground/70">Investissement unique</div>
             </div>
             <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold">7 jours</div>
-              <div className="text-sm font-mono text-primary-foreground/70">Satisfait ou remboursé</div>
+              <div className="text-sm font-mono text-primary-foreground/70">De déploiement</div>
             </div>
           </div>
           
