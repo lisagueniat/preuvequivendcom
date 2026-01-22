@@ -62,7 +62,7 @@ const Pricing = () => {
               </p>
 
               <Button size="lg" className="w-full text-sm sm:text-base md:text-lg py-5 md:py-7 shadow-sm hover:shadow transition-all" asChild>
-                <a href="https://juliengueniat235854.typeform.com/to/qJVNaama" target="_blank" rel="noopener noreferrer">
+                <a href="https://form.typeform.com/to/qJVNaama" target="_blank" rel="noopener noreferrer">
                   Réserver mon appel gratuit
                   <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
                 </a>
