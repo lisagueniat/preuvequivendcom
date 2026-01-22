@@ -38,7 +38,7 @@ const CTA = () => {
               className="w-full max-w-full sm:w-auto h-auto whitespace-normal text-center justify-center text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-10 py-4 sm:py-5 md:py-7 bg-primary-foreground text-primary hover:bg-primary-foreground/90 border-2 border-primary-foreground font-bold shadow-sm hover:shadow transition-all"
               asChild
             >
-              <a href="https://juliengueniat235854.typeform.com/to/qJVNaama" target="_blank" rel="noopener noreferrer">
+              <a href="https://form.typeform.com/to/qJVNaama" target="_blank" rel="noopener noreferrer">
                 Réserver mon appel gratuit
                 <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5 shrink-0" />
               </a>

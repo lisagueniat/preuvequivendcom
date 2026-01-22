@@ -16,7 +16,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button size="lg" className="text-lg px-8 py-6 shadow-sm hover:shadow transition-all" asChild>
-              <a href="https://juliengueniat235854.typeform.com/to/qJVNaama" target="_blank" rel="noopener noreferrer">
+              <a href="https://form.typeform.com/to/qJVNaama" target="_blank" rel="noopener noreferrer">
                 Réserver un appel
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
