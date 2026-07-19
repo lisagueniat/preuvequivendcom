@@ -13,7 +13,7 @@ const Header = () => {
             <a href="#benefits" className="text-sm font-medium hover:underline underline-offset-4">
               Avantages
             </a>
-            <a href="#testimonials" className="text-sm font-medium hover:underline underline-offset-4">
+            <a href="#case-study" className="text-sm font-medium hover:underline underline-offset-4">
               Témoignages
             </a>
           </nav>
